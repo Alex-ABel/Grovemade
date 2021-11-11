@@ -181,8 +181,25 @@ h1, h2{
   background: #000000;
 }
 .stands__devices{
-  width: 1340px;
-  height: 494px;
   margin: 0 auto;
   margin-bottom: 100px;
+}
+
+.devices__inner{
+  display: table;
+  max-width: 1340px;
+  margin: auto;
+}
+.devices__block{
+  display: table-cell;
+  width: 311px;
+  height: 494px;
+  margin: 0 auto;
+}
+.devices__text, .devices__price{
+  font-size: 13px;
+  line-height: 21px;
+  letter-spacing: 0.7px;
+  color: #A0A0A0;
+
 }
