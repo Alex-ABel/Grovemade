@@ -87,6 +87,9 @@ h1, h2{
   text-transform: uppercase;
   letter-spacing: 1.4px;
 }
+.title{
+  margin-bottom: 80px;
+}
 .title__inner{
   /*margin-bottom: 80px;*/
 }
@@ -112,14 +115,19 @@ h1, h2{
   letter-spacing: 1.4px;
   text-transform: uppercase;
 }
+.desks{
+  margin-bottom: 134px;
+}
 .desks__inner{
   display: table;
-  margin-bottom: 134px;
+  max-width: 1365px;
+  margin: auto;
 }
 .desks__content{
   display: table-cell;
   width: 682px;
   height: 570px;
+  margin: 0 auto;
 }
 .desks__item{
   text-align: center;
@@ -151,6 +159,7 @@ h1, h2{
   display: flex;
   justify-content: space-between;
   width: 57px;
+  margin-bottom: 19px;
 }
 .stands__dot{
   width: 7px;
